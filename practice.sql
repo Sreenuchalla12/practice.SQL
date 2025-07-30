@@ -42,3 +42,6 @@ select * from employeetable order by FIRST_NAME desc;
 select * from employeetable order by FIRST_NAME ASC,SALARY desc;
 select * from employeetable where SALARY>=50000 and SALARY<=70000;
 select * from employeetable where not FIRST_NAME="Dinesh";
+select * from employeetable where FIRST_NAME="Dinesh";
+select * from employeetable where FIRST_NAME="Dinesh" or FIRST_NAME="Roy";
+select * from employeetable where not FIRST_NAME="Dinesh" and not FIRST_NAME="Roy";
